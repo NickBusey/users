@@ -60,6 +60,7 @@ trait RegisterTrait
             'usersTable' => $usersTable,
             'options' => $options,
             'userEntity' => $user,
+            'requestData' => $requestData,
         ]);
 
         if ($event->result instanceof EntityInterface) {
